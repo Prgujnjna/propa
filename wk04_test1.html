@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>눌러보세요</title>
+  <style>
+    #msg{
+      display: none;
+      font-size: 96px;
+      font-weight: 900;
+      text-align: center;
+      margin-top: 60px;
+    }
+    #btn{
+      padding: 12px 20px;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <button id="btn" onclick="showMsg()">눌러보세요</button>
+  <div id="msg">느금마</div>
+
+  <script>
+    function showMsg(){
+      document.getElementById('msg').style.display = 'block';
+    }
+  </script>
+</body>
+</html>
